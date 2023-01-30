@@ -1,0 +1,27 @@
+.main-container{
+    margin: 5% 15%;
+}
+
+.todo-container{
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.done-container{
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-check{
+    margin-right: 10px;
+}
+
+.field{
+    margin: auto;
+    text-align: center;
+}
