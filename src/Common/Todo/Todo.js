@@ -38,7 +38,7 @@ export function TodoList() {
     return (
         <div className="main-container">
             <div className="field">
-                <Input type="text" placeholder="Write the task decription here... "
+                <Input data-testid="input-field" type="text" placeholder="Write the task decription here... "
                 value={inputValue} 
                 sx={{ width: "50%" }} 
                 onChange={(e)=>setInputValue(e.target.value)}

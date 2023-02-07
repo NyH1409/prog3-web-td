@@ -15,9 +15,9 @@ export function Done(props) {
                     <Card sx={{ width : 275, margin : "8px 0" }} elevation={5} key={elt?.id}>
                         <CardContent>
                             <TaskAlt sx={{ color: pink[500]}} />
-                            <Typography color="text.secondary">{title}</Typography>
+                            <Typography data-testid="title" color="text.secondary">{title}</Typography>
                             <Typography sx={{ mb: 1.5 }} color="blue">{new Date().toISOString().slice(0, 10)}</Typography>
-                            <Typography variant="body2" sx={{paddingRight: 2}}>{elt?.title}<br /></Typography>
+                            <Typography data-testid="element-title" variant="body2" sx={{paddingRight: 2}}>{elt?.title}<br /></Typography>
                         </CardContent>
                     </Card>
                 ))
